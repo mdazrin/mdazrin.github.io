@@ -24,9 +24,18 @@
 	
 		<header class="max-w-4xl mx-auto mt-20 ">
 
-            <h1 class="relative mx-auto text-center mb-10">About Us</h1>
+            <h1 class="relative mb-10 underline">About Us</h1>
+            <section class="font-semibold">
+                GoMyTeam is a high-growth startup founded in September 2018 that provide both employee engagement and people ops (HR) management system. 
+                We are providing support for businesses from small-size teams (5~10 people) up to medium-size teams (10~100).
+            </section>
+
+            <div class="mt-10">
+                <img src="ladycasual.jpg">
+            </div>
+
             <!-- First mission -->
-			<div class="max-w-xl mx-auto text-center px-10 py-10 bg-gray-100 rounded-full">			
+			<div class="max-w-xl mx-auto text-center px-10 py-10 bg-gray-100 rounded mt-10">			
 				
                 <p class="text-4xl">
 					Focus on people well-being
@@ -37,7 +46,7 @@
 			</div>
 
             <!-- Second mission -->
-			<div class="max-w-xl mx-auto text-center px-10 py-10 bg-gray-100 rounded-full mt-10">			
+			<div class="max-w-xl mx-auto text-center px-10 py-10 bg-gray-100 rounded mt-10">			
                 <p class="text-4xl">
 					Digitalization
                 </p>
@@ -47,7 +56,33 @@
 			</div>
 		</header>
 
-		<footer></footer>
+		<footer class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
+            <img src="./images/lary-newsletter-icon.svg" alt="" class="mx-auto -mb-6" style="width: 145px;">
+            <h5 class="text-3xl">Stay in touch</h5>
+            <p class="text-sm mt-3">To know the latest products</p>
+
+            <div class="mt-10">
+                <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
+
+                    <form method="POST" action="#" class="lg:flex text-sm">
+                        <div class="lg:py-3 lg:px-5 flex items-center">
+                            <label for="email" class="hidden lg:inline-block">
+                                <img src="./images/mailbox-icon.svg" alt="mailbox letter">
+                            </label>
+
+                            <input id="email" type="text" placeholder="Your email address"
+                                   class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
+                        </div>
+
+                        <button type="submit"
+                                class="transition-colors duration-300 bg-blue-500 hover:bg-blue-600 mt-4 lg:mt-0 lg:ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-8"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
 	</section>
 
 </body>
